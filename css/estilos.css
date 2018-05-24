@@ -1,0 +1,63 @@
+body {
+	font: 15px Arial, Melvetica, sans-serif;
+	padding: 0;
+    margin: 0;
+    background-color: #white;
+
+
+}
+
+/*estilos globales*/
+.contiene{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+/* encabezado*/
+header{
+	background-color: #black;
+
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 40px;
+
+header.resaltar, header.presente a{
+	color: #129d34;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+#cabecera {
+	min-height: 400px;
+	background: url('../img/cabecera.jpg') no-repeat 0 -400px;
+}
